@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Glade Cinemas</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+        <style>
+ body{
+     background-image: url(images/18.jpg);
+ }
+            
+ nav ul{
+    list-style-type: none;
+     padding: 0;
+     margin: 0;
+     margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    background: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 15px;
+    line-height: 60px;
+    display: block;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color:rgb(247, 21, 21);
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 150
+}
+
+table,td,th,tr{
+    border: 1px solid rgb(224, 64, 144);border-collapse:collapse;
+    color: white;
+    direction:centre;
+ }
+td,th{
+    padding: 3px;
+    font-size: 20px;
+}
+caption{
+    color: rgb(19, 61, 247);
+    font-size: 30px;
+}
+           
+        </style>
+    </head>
+    <header>
+        <nav>
+         <ul>
+             <li><a href="Index.html">Home</a></li>
+             <li><a href="movie_page.html">Movies<i class="fa-solid fa-angle-down" ></i></a>
+                 <ul>
+                     <li><a href="Action.html">Action</a></li>
+                     <li><a href="Horror.html">Horror</a></li>
+                     <li><a href="Comedy.html">Comedy</a></li>
+                 </ul>
+             </li>
+             <li><a href="Upcoming.html">Upcoming</a></li>
+             <li><a href="Ticket.html">Tickets</a></li>
+             <li><a href="contacts and feedback.html">Contact</a></li>
+         </ul>
+         
+         
+         </nav>
+
+     </div>
+ 
+    <body>
+        <table id="movie_page"><!--border="20" cellspacing="0" cellpadding="10"--> 
+            <thead>
+                <caption>browse through;</caption>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>movie</th>
+                    <th>Gallery</th>
+                    <th>Information</th>
+                    
+                
+                </tr>   
+                <tr>
+                    <td>The Tomorrow War</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/3.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>When a group of time travellers from the future tell people about war they are fighting with aliens, Dan a school teacher, decides to help them win in order to secure his daughter's future
+                    <p>Director: Chris Mckay</p>
+                    <p>Cast: Chris Pratt, Betty Gilpin,Yvonne Strahovski</p>
+                    <p>Ratings: 6.5/10</p>
+                    <p>Action</p>
+                    <p>Released year: 2021</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>The Marksman</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/2.jpg" width="200px"alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>Jim Hanson, a retired Marine living on the Mexican border, tries to save a moter and a son as they are being hunted by a a cartel. After the mother dies, Jim must take the child to Chicago
+                    <p>Director: Robert Lorenz</p>
+                    <p>Cast: Liam Neeson, Katheryn Winnick, Teresa Ruiz</p>
+                    <p>Ratings: 7/10</p>
+                    <p>Action</p>
+                    <p>Released year: 2021</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Hellraiser</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/9.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>A couple moves to an old house to find the man's brother and former wife's former love who has turned into an ugly beast. He now bids the woman to bring him human sacrifes to help hi to be whole again
+                    <p>Director: Clive Barker</p>
+                    <p>Cast: Andrew Robinson, Clare Higgins, Ashley Laurence</p>
+                    <p>Ratings: 8.6/10</p>
+                    <p>Horror</p>
+                    <p>Released year: 1987</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>The breakfast Club</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/5.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>Five high school syudents, all with different mindsets, face detainment in their school library on a saturday morning. As time passes by, their egos fade and they become close buddies
+                    <p>Director: John Hughes</p>
+                    <p>Cast: Molly Ringwald, Judd Nelson, Ally Sheedy</p>
+                    <p>Ratings: 9.2/10</p>
+                    <p>Comedy</p>
+                    <p>Released year: 2015</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>The hunger games catching fire</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/4.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>After Katniss and Peeta's victory sparks hope and posssible rebellion from the citizens of Panem, the two are targeted by the Capitol that wants to quell the revolution before it is late.
+                    <p>Director: Clive Barker</p>
+                    <p>Cast: Jennifer Lawrence, Josh Hutcherson, Sam Claffin</p>
+                    <p>Ratings: 8/10</p>
+                    <p>Action</p>
+                    <p>Released year: 2013</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>All between us</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/6.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>A dinner party begins as a celebration but soon turns into disaster as closely-guarded secrets begin to bybble to the surface.
+                    <p>Director: Jamie Jones</p>
+                    <p>Cast: Tiffany Haddish, Brian Hooks, Deynce Lawton</p>
+                    <p>Ratings: 9.5/10</p>
+                    <p>Comedy</p>
+                    <p>Released year: 2021</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>The hils have eyes</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/8.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>A travelling family falls victim to a group of mutated cannibals in a desert far away from civilization.
+                    <p>Director: Wes Craven</p>
+                    <p>Cast: Wes Craven, Robert Houston, Dee Wallance</p>
+                    <p>Ratings: 6/10</p>
+                    <p>Horror</p>
+                    <p>Released year: 2007</p>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>The Fault in our world stars</td>
+                    <td> <div id="divgallery" class="sidebar">
+                        <img src="images/11.jpg" width="200px" alt="Gallery Image" title="Gallery Image">
+                    </div></td>
+                   
+                    <td>Hazeland Augustus are two teenagers who share an acerbic wit, a disdan for the conventional, and a love that sweeps them on a journey.
+                    <p>Director: Josh Boone</p>
+                    <p>Cast: Shailene Woodley, Ansel Elgort, Laura Dern</p>
+                    <p>Ratings: 7.7/10</p>
+                    <p>Comedy</p>
+                    <p>Released year: 2014</p>
+                </td>
+                </tr>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    </body>
+</html>
