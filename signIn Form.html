@@ -7,6 +7,61 @@
         <link rel="stylesheet" href="CSS/style.css">
  
         <style>
+            
+header{
+    background-image: url('../images/1.jpg'); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+   
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+     padding: 0;
+     margin: 0;
+     margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    background: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 15px;
+    line-height: 60px;
+    display: block;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color:rgb(247, 21, 21);
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 150
+}
              #divSignIn{
      color: white;
      background-image:"../images/1.jpg";
