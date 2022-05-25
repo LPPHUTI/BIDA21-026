@@ -2,12 +2,7 @@
 /*some variables to delete*/
 
 /*for feedback*/
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
+
 body{
     background-color: var(--text-color);
     color: #fff;
